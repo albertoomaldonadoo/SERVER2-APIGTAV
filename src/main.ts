@@ -4,9 +4,7 @@ import { switchMap, of} from 'rxjs';
 
 
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-      <img src="../src/img/logo_dragonballapi.jpg" >
-      
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = `      
       <h1>Personajes iconicos de GTAV</h1>
       <div id="mostrarPersonajes">
         
